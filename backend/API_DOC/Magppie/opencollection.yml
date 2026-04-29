@@ -1,0 +1,26 @@
+opencollection: 1.0.0
+
+info:
+  name: Magppie
+config:
+  proxy:
+    inherit: true
+    config:
+      protocol: http
+      hostname: ""
+      port: ""
+      auth:
+        username: ""
+        password: ""
+      bypassProxy: ""
+
+request:
+  auth:
+    type: bearer
+    token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5ZjFhMTAzMThiNTI0YTkyM2I1Zjc2ZCIsImVtYWlsIjoiYWRtaW5AYWRtaW4uY29tIiwicm9sZSI6ImFkbWluIiwiaWF0IjoxNzc3NDUyMjQ0LCJleHAiOjE3Nzc0NTI4NDR9.zm_E62q0XwfMYRfc6NUtsB_0wq8YJPtL6hQsphwVGlQ
+bundled: false
+extensions:
+  bruno:
+    ignore:
+      - node_modules
+      - .git

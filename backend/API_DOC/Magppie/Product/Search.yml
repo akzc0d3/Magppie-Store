@@ -1,0 +1,39 @@
+info:
+  name: Search
+  type: http
+  seq: 2
+
+http:
+  method: GET
+  url: http://localhost:8000/v1/product/search?category=pokemons
+  params:
+    - name: category
+      value: pokemons
+      type: query
+    - name: name
+      value: test
+      type: query
+      disabled: true
+    - name: priceMin
+      value: ""
+      type: query
+      disabled: true
+    - name: priceMax
+      value: ""
+      type: query
+      disabled: true
+    - name: page
+      value: ""
+      type: query
+      disabled: true
+    - name: limit
+      value: ""
+      type: query
+      disabled: true
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5

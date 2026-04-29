@@ -1,0 +1,29 @@
+info:
+  name: Udate
+  type: http
+  seq: 4
+
+http:
+  method: PATCH
+  url: http://localhost:8000/v1/product/update
+  body:
+    type: json
+    data: |-
+      {
+         "id": "69ef0dc8ae38c2b32fe72f23",
+              "name": "Test",
+              "description": "A Spatula is a versatile kitchen tool made from eco-friendly bamboo. Ideal for flipping, stirring, and serving various dishes.",
+              "price": 7.99,
+              "category": "kitchen-accessories",
+              "stock": 37,
+              "images": [
+                "https://cdn.dummyjson.com/product-images/kitchen-accessories/bamboo-spatula/1.webp"
+              ] 
+            }
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5

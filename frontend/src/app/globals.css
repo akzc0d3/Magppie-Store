@@ -1,0 +1,28 @@
+
+
+
+@import "tailwindcss";
+
+/* Design Tokens */
+:root {
+  --color-primary: #0f172a;
+  --color-accent: #6366f1;
+  --color-muted: #64748b;
+  --color-border: #e2e8f0;
+  --color-bg: #ffffff;
+}
+
+/* Dark mode ready (optional future-proofing) 
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-bg: #020617;
+    --color-primary: #f8fafc;
+  }
+}*/ 
+
+/* Base Styles */
+body {
+  background: var(--color-bg);
+  color: var(--color-primary);
+  font-family: var(--font-inter-sans), system-ui, sans-serif;
+}

@@ -1,0 +1,22 @@
+info:
+  name: Login
+  type: http
+  seq: 1
+
+http:
+  method: POST
+  url: http://localhost:8000/v1/auth/login
+  body:
+    type: form-urlencoded
+    data:
+      - name: email
+        value: john@deo.com
+      - name: password
+        value: 12Thuusudsd@ssdd
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5

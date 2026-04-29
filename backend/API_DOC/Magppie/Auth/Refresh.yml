@@ -1,0 +1,17 @@
+info:
+  name: Refresh
+  type: http
+  seq: 3
+
+http:
+  method: POST
+  url: http://localhost:8000/v1/auth/refresh
+  headers:
+    - name: ""
+      value: 7b02f43f9682b19f383d3f8fb6d1648c8d6645fd1a57386ba6931b9083eca431
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5

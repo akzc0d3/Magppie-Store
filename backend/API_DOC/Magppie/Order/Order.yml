@@ -1,0 +1,30 @@
+info:
+  name: Order
+  type: http
+  seq: 1
+
+http:
+  method: POST
+  url: http://localhost:8000/v1/order/
+  body:
+    type: json
+    data: |-
+      [
+        {
+          "id":"69ef36cf4b374f2773bdea07",
+          "quantity":9
+        },
+        
+          
+        {
+          "id":"69ef36cf4b374f2773bdea08",
+          "quantity":3
+        }
+      ]
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
