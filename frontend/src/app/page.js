@@ -38,60 +38,61 @@ export default function Home() {
     };
 
     return (
-        <main className="flex-1 p-6 space-y-6">
+        <main className="flex-1">
+            <div className="max-w-7xl mx-auto p-6 space-y-6">
+                <SearchBar onSearch={handleSearch} />
 
-            <SearchBar onSearch={handleSearch} />
+                <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
 
-            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-
-                {products.map((product) => (
-                    <ProductCard key={product.id} product={product} />
-                ))}
-
-            </div>
-            {pagination.totalPages > 1 && (
-                <div className="flex justify-center items-center gap-2 pt-6">
-
-                    {/* Prev */}
-                    <button
-                        onClick={() => handlePageChange(pagination.page - 1)}
-                        disabled={pagination.page === 1}
-                        className="px-3 py-1 border rounded disabled:opacity-50"
-                    >
-                        Prev
-                    </button>
-
-                    {/* Page Numbers */}
-                    {Array.from({ length: pagination.totalPages }).map((_, i) => {
-                        const page = i + 1;
-
-                        return (
-                            <button
-                                key={page}
-                                onClick={() => handlePageChange(page)}
-                                className={`px-3 py-1 rounded ${page === pagination.page
-                                    ? "bg-black text-white"
-                                    : "border"
-                                    }`}
-                            >
-                                {page}
-                            </button>
-                        );
-                    })}
-
-                    {/* Next */}
-                    <button
-                        onClick={() => handlePageChange(pagination.page + 1)}
-                        disabled={pagination.page === pagination.totalPages}
-                        className="px-3 py-1 border rounded disabled:opacity-50"
-                    >
-                        Next
-                    </button>
+                    {products.map((product) => (
+                        <ProductCard key={product.id} product={product} />
+                    ))}
 
                 </div>
+                {pagination.totalPages > 1 && (
+                    <div className="flex justify-center items-center gap-2 pt-6">
 
-            )}
+                        {/* Prev */}
+                        <button
+                            onClick={() => handlePageChange(pagination.page - 1)}
+                            disabled={pagination.page === 1}
+                            className="px-3 py-1 border rounded disabled:opacity-50"
+                        >
+                            Prev
+                        </button>
 
+                        {/* Page Numbers */}
+                        {Array.from({ length: pagination.totalPages }).map((_, i) => {
+                            const page = i + 1;
+
+                            return (
+                                <button
+                                    key={page}
+                                    onClick={() => handlePageChange(page)}
+                                    className={`px-3 py-1 rounded ${page === pagination.page
+                                        ? "bg-black text-white"
+                                        : "border"
+                                        }`}
+                                >
+                                    {page}
+                                </button>
+                            );
+                        })}
+
+                        {/* Next */}
+                        <button
+                            onClick={() => handlePageChange(pagination.page + 1)}
+                            disabled={pagination.page === pagination.totalPages}
+                            className="px-3 py-1 border rounded disabled:opacity-50"
+                        >
+                            Next
+                        </button>
+
+                    </div>
+
+                )}
+
+            </div>
         </main>
     );
 }
