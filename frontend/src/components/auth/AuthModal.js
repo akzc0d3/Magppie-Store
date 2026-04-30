@@ -16,7 +16,7 @@ export default function AuthModal() {
         name: "",
         email: "",
         password: "",
-        role: ""
+        role: "user"
     });
 
     if (!isLoginModalOpen) return null;
