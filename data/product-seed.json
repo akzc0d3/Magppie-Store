@@ -1,0 +1,812 @@
+[
+  {
+    "name": "iPhone 5s",
+    "description": "The iPhone 5s is a classic smartphone known for its compact design and advanced features during its release. While it's an older model, it still provides a reliable user experience.",
+    "price": 199.99,
+    "category": "smartphones",
+    "stock": 25,
+    "images": [
+      "https://cdn.dummyjson.com/product-images/smartphones/iphone-5s/1.webp",
+      "https://cdn.dummyjson.com/product-images/smartphones/iphone-5s/2.webp",
+      "https://cdn.dummyjson.com/product-images/smartphones/iphone-5s/3.webp"
+    ],
+    "isActive": true
+  },
+  {
+    "name": "iPhone 6",
+    "description": "The iPhone 6 is a stylish and capable smartphone with a larger display and improved performance. It introduced new features and design elements, making it a popular choice in its time.",
+    "price": 299.99,
+    "category": "smartphones",
+    "stock": 60,
+    "images": [
+      "https://cdn.dummyjson.com/product-images/smartphones/iphone-6/1.webp",
+      "https://cdn.dummyjson.com/product-images/smartphones/iphone-6/2.webp",
+      "https://cdn.dummyjson.com/product-images/smartphones/iphone-6/3.webp"
+    ],
+    "isActive": true
+  },
+  {
+    "name": "iPhone 13 Pro",
+    "description": "The iPhone 13 Pro is a cutting-edge smartphone with a powerful camera system, high-performance chip, and stunning display. It offers advanced features for users who demand top-notch technology.",
+    "price": 1099.99,
+    "category": "smartphones",
+    "stock": 56,
+    "images": [
+      "https://cdn.dummyjson.com/product-images/smartphones/iphone-13-pro/1.webp",
+      "https://cdn.dummyjson.com/product-images/smartphones/iphone-13-pro/2.webp",
+      "https://cdn.dummyjson.com/product-images/smartphones/iphone-13-pro/3.webp"
+    ],
+    "isActive": true
+  },
+  {
+    "name": "iPhone X",
+    "description": "The iPhone X is a flagship smartphone featuring a bezel-less OLED display, facial recognition technology (Face ID), and impressive performance. It represents a milestone in iPhone design and innovation.",
+    "price": 899.99,
+    "category": "smartphones",
+    "stock": 37,
+    "images": [
+      "https://cdn.dummyjson.com/product-images/smartphones/iphone-x/1.webp",
+      "https://cdn.dummyjson.com/product-images/smartphones/iphone-x/2.webp",
+      "https://cdn.dummyjson.com/product-images/smartphones/iphone-x/3.webp"
+    ],
+    "isActive": true
+  },
+  {
+    "name": "Oppo A57",
+    "description": "The Oppo A57 is a mid-range smartphone known for its sleek design and capable features. It offers a balance of performance and affordability, making it a popular choice.",
+    "price": 249.99,
+    "category": "smartphones",
+    "stock": 19,
+    "images": [
+      "https://cdn.dummyjson.com/product-images/smartphones/oppo-a57/1.webp",
+      "https://cdn.dummyjson.com/product-images/smartphones/oppo-a57/2.webp",
+      "https://cdn.dummyjson.com/product-images/smartphones/oppo-a57/3.webp"
+    ],
+    "isActive": true
+  },
+  {
+    "name": "Oppo F19 Pro Plus",
+    "description": "The Oppo F19 Pro Plus is a feature-rich smartphone with a focus on camera capabilities. It boasts advanced photography features and a powerful performance for a premium user experience.",
+    "price": 399.99,
+    "category": "smartphones",
+    "stock": 78,
+    "images": [
+      "https://cdn.dummyjson.com/product-images/smartphones/oppo-f19-pro-plus/1.webp",
+      "https://cdn.dummyjson.com/product-images/smartphones/oppo-f19-pro-plus/2.webp",
+      "https://cdn.dummyjson.com/product-images/smartphones/oppo-f19-pro-plus/3.webp"
+    ],
+    "isActive": true
+  },
+  {
+    "name": "Oppo K1",
+    "description": "The Oppo K1 series offers a range of smartphones with various features and specifications. Known for their stylish design and reliable performance, the Oppo K1 series caters to diverse user preferences.",
+    "price": 299.99,
+    "category": "smartphones",
+    "stock": 55,
+    "images": [
+      "https://cdn.dummyjson.com/product-images/smartphones/oppo-k1/1.webp",
+      "https://cdn.dummyjson.com/product-images/smartphones/oppo-k1/2.webp",
+      "https://cdn.dummyjson.com/product-images/smartphones/oppo-k1/3.webp",
+      "https://cdn.dummyjson.com/product-images/smartphones/oppo-k1/4.webp"
+    ],
+    "isActive": true
+  },
+  {
+    "name": "Realme C35",
+    "description": "The Realme C35 is a budget-friendly smartphone with a focus on providing essential features for everyday use. It offers a reliable performance and user-friendly experience.",
+    "price": 149.99,
+    "category": "smartphones",
+    "stock": 48,
+    "images": [
+      "https://cdn.dummyjson.com/product-images/smartphones/realme-c35/1.webp",
+      "https://cdn.dummyjson.com/product-images/smartphones/realme-c35/2.webp",
+      "https://cdn.dummyjson.com/product-images/smartphones/realme-c35/3.webp"
+    ],
+    "isActive": true
+  },
+  {
+    "name": "Realme X",
+    "description": "The Realme X is a mid-range smartphone known for its sleek design and impressive display. It offers a good balance of performance and camera capabilities for users seeking a quality device.",
+    "price": 299.99,
+    "category": "smartphones",
+    "stock": 12,
+    "images": [
+      "https://cdn.dummyjson.com/product-images/smartphones/realme-x/1.webp",
+      "https://cdn.dummyjson.com/product-images/smartphones/realme-x/2.webp",
+      "https://cdn.dummyjson.com/product-images/smartphones/realme-x/3.webp"
+    ],
+    "isActive": true
+  },
+  {
+    "name": "Realme XT",
+    "description": "The Realme XT is a feature-rich smartphone with a focus on camera technology. It comes equipped with advanced camera sensors, delivering high-quality photos and videos for photography enthusiasts.",
+    "price": 349.99,
+    "category": "smartphones",
+    "stock": 80,
+    "images": [
+      "https://cdn.dummyjson.com/product-images/smartphones/realme-xt/1.webp",
+      "https://cdn.dummyjson.com/product-images/smartphones/realme-xt/2.webp",
+      "https://cdn.dummyjson.com/product-images/smartphones/realme-xt/3.webp"
+    ],
+    "isActive": true
+  },
+  {
+    "name": "Samsung Galaxy S7",
+    "description": "The Samsung Galaxy S7 is a flagship smartphone known for its sleek design and advanced features. It features a high-resolution display, powerful camera, and robust performance.",
+    "price": 299.99,
+    "category": "smartphones",
+    "stock": 67,
+    "images": [
+      "https://cdn.dummyjson.com/product-images/smartphones/samsung-galaxy-s7/1.webp",
+      "https://cdn.dummyjson.com/product-images/smartphones/samsung-galaxy-s7/2.webp",
+      "https://cdn.dummyjson.com/product-images/smartphones/samsung-galaxy-s7/3.webp"
+    ],
+    "isActive": true
+  },
+  {
+    "name": "Samsung Galaxy S8",
+    "description": "The Samsung Galaxy S8 is a premium smartphone with an Infinity Display, offering a stunning visual experience. It boasts advanced camera capabilities and cutting-edge technology.",
+    "price": 499.99,
+    "category": "smartphones",
+    "stock": 0,
+    "images": [
+      "https://cdn.dummyjson.com/product-images/smartphones/samsung-galaxy-s8/1.webp",
+      "https://cdn.dummyjson.com/product-images/smartphones/samsung-galaxy-s8/2.webp",
+      "https://cdn.dummyjson.com/product-images/smartphones/samsung-galaxy-s8/3.webp"
+    ],
+    "isActive": true
+  },
+  {
+    "name": "Samsung Galaxy S10",
+    "description": "The Samsung Galaxy S10 is a flagship device featuring a dynamic AMOLED display, versatile camera system, and powerful performance. It represents innovation and excellence in smartphone technology.",
+    "price": 699.99,
+    "category": "smartphones",
+    "stock": 19,
+    "images": [
+      "https://cdn.dummyjson.com/product-images/smartphones/samsung-galaxy-s10/1.webp",
+      "https://cdn.dummyjson.com/product-images/smartphones/samsung-galaxy-s10/2.webp",
+      "https://cdn.dummyjson.com/product-images/smartphones/samsung-galaxy-s10/3.webp"
+    ],
+    "isActive": true
+  },
+  {
+    "name": "Vivo S1",
+    "description": "The Vivo S1 is a stylish and mid-range smartphone offering a blend of design and performance. It features a vibrant display, capable camera system, and reliable functionality.",
+    "price": 249.99,
+    "category": "smartphones",
+    "stock": 50,
+    "images": [
+      "https://cdn.dummyjson.com/product-images/smartphones/vivo-s1/1.webp",
+      "https://cdn.dummyjson.com/product-images/smartphones/vivo-s1/2.webp",
+      "https://cdn.dummyjson.com/product-images/smartphones/vivo-s1/3.webp"
+    ],
+    "isActive": true
+  },
+  {
+    "name": "Vivo V9",
+    "description": "The Vivo V9 is a smartphone known for its sleek design and emphasis on capturing high-quality selfies. It features a notch display, dual-camera setup, and a modern design.",
+    "price": 299.99,
+    "category": "smartphones",
+    "stock": 82,
+    "images": [
+      "https://cdn.dummyjson.com/product-images/smartphones/vivo-v9/1.webp",
+      "https://cdn.dummyjson.com/product-images/smartphones/vivo-v9/2.webp",
+      "https://cdn.dummyjson.com/product-images/smartphones/vivo-v9/3.webp"
+    ],
+    "isActive": true
+  },
+  {
+    "name": "Vivo X21",
+    "description": "The Vivo X21 is a premium smartphone with a focus on cutting-edge technology. It features an in-display fingerprint sensor, a high-resolution display, and advanced camera capabilities.",
+    "price": 499.99,
+    "category": "smartphones",
+    "stock": 7,
+    "images": [
+      "https://cdn.dummyjson.com/product-images/smartphones/vivo-x21/1.webp",
+      "https://cdn.dummyjson.com/product-images/smartphones/vivo-x21/2.webp",
+      "https://cdn.dummyjson.com/product-images/smartphones/vivo-x21/3.webp"
+    ],
+    "isActive": true
+  },
+   {
+    "name": "Bamboo Spatula",
+    "description": "The Bamboo Spatula is a versatile kitchen tool made from eco-friendly bamboo. Ideal for flipping, stirring, and serving various dishes.",
+    "price": 7.99,
+    "category": "kitchen-accessories",
+    "stock": 37,
+    "images": [
+      "https://cdn.dummyjson.com/product-images/kitchen-accessories/bamboo-spatula/1.webp"
+    ],
+    "isActive": true
+  },
+  {
+    "name": "Black Aluminium Cup",
+    "description": "The Black Aluminium Cup is a stylish and durable cup suitable for both hot and cold beverages. Its sleek black design adds a modern touch to your drinkware collection.",
+    "price": 5.99,
+    "category": "kitchen-accessories",
+    "stock": 75,
+    "images": [
+      "https://cdn.dummyjson.com/product-images/kitchen-accessories/black-aluminium-cup/1.webp",
+      "https://cdn.dummyjson.com/product-images/kitchen-accessories/black-aluminium-cup/2.webp"
+    ],
+    "isActive": true
+  },
+  {
+    "name": "Black Whisk",
+    "description": "The Black Whisk is a kitchen essential for whisking and beating ingredients. Its ergonomic handle and sleek design make it a practical and stylish tool.",
+    "price": 9.99,
+    "category": "kitchen-accessories",
+    "stock": 73,
+    "images": [
+      "https://cdn.dummyjson.com/product-images/kitchen-accessories/black-whisk/1.webp"
+    ],
+    "isActive": true
+  },
+  {
+    "name": "Boxed Blender",
+    "description": "The Boxed Blender is a powerful and compact blender perfect for smoothies, shakes, and more. Its convenient design and multiple functions make it a versatile kitchen appliance.",
+    "price": 39.99,
+    "category": "kitchen-accessories",
+    "stock": 9,
+    "images": [
+      "https://cdn.dummyjson.com/product-images/kitchen-accessories/boxed-blender/1.webp",
+      "https://cdn.dummyjson.com/product-images/kitchen-accessories/boxed-blender/2.webp",
+      "https://cdn.dummyjson.com/product-images/kitchen-accessories/boxed-blender/3.webp",
+      "https://cdn.dummyjson.com/product-images/kitchen-accessories/boxed-blender/4.webp"
+    ],
+    "isActive": true
+  },
+  {
+    "name": "Carbon Steel Wok",
+    "description": "The Carbon Steel Wok is a versatile cooking pan suitable for stir-frying, saut\u00e9ing, and deep frying. Its sturdy construction ensures even heat distribution for delicious meals.",
+    "price": 29.99,
+    "category": "kitchen-accessories",
+    "stock": 40,
+    "images": [
+      "https://cdn.dummyjson.com/product-images/kitchen-accessories/carbon-steel-wok/1.webp"
+    ],
+    "isActive": true
+  },
+  {
+    "name": "Chopping Board",
+    "description": "The Chopping Board is an essential kitchen accessory for food preparation. Made from durable material, it provides a safe and hygienic surface for cutting and chopping.",
+    "price": 12.99,
+    "category": "kitchen-accessories",
+    "stock": 14,
+    "images": [
+      "https://cdn.dummyjson.com/product-images/kitchen-accessories/chopping-board/1.webp"
+    ],
+    "isActive": true
+  },
+  {
+    "name": "Citrus Squeezer Yellow",
+    "description": "The Citrus Squeezer in Yellow is a handy tool for extracting juice from citrus fruits. Its vibrant color adds a cheerful touch to your kitchen gadgets.",
+    "price": 8.99,
+    "category": "kitchen-accessories",
+    "stock": 22,
+    "images": [
+      "https://cdn.dummyjson.com/product-images/kitchen-accessories/citrus-squeezer-yellow/1.webp"
+    ],
+    "isActive": true
+  },
+  {
+    "name": "Egg Slicer",
+    "description": "The Egg Slicer is a convenient tool for slicing boiled eggs evenly. It's perfect for salads, sandwiches, and other dishes where sliced eggs are desired.",
+    "price": 6.99,
+    "category": "kitchen-accessories",
+    "stock": 40,
+    "images": [
+      "https://cdn.dummyjson.com/product-images/kitchen-accessories/egg-slicer/1.webp"
+    ],
+    "isActive": true
+  },
+  {
+    "name": "Electric Stove",
+    "description": "The Electric Stove provides a portable and efficient cooking solution. Ideal for small kitchens or as an additional cooking surface for various culinary needs.",
+    "price": 49.99,
+    "category": "kitchen-accessories",
+    "stock": 21,
+    "images": [
+      "https://cdn.dummyjson.com/product-images/kitchen-accessories/electric-stove/1.webp",
+      "https://cdn.dummyjson.com/product-images/kitchen-accessories/electric-stove/2.webp",
+      "https://cdn.dummyjson.com/product-images/kitchen-accessories/electric-stove/3.webp",
+      "https://cdn.dummyjson.com/product-images/kitchen-accessories/electric-stove/4.webp"
+    ],
+    "isActive": true
+  },
+  {
+    "name": "Fine Mesh Strainer",
+    "description": "The Fine Mesh Strainer is a versatile tool for straining liquids and sifting dry ingredients. Its fine mesh ensures efficient filtering for smooth cooking and baking.",
+    "price": 9.99,
+    "category": "kitchen-accessories",
+    "stock": 85,
+    "images": [
+      "https://cdn.dummyjson.com/product-images/kitchen-accessories/fine-mesh-strainer/1.webp"
+    ],
+    "isActive": true
+  },
+  {
+    "name": "Fork",
+    "description": "The Fork is a classic utensil for various dining and serving purposes. Its durable and ergonomic design makes it a reliable choice for everyday use.",
+    "price": 3.99,
+    "category": "kitchen-accessories",
+    "stock": 7,
+    "images": [
+      "https://cdn.dummyjson.com/product-images/kitchen-accessories/fork/1.webp"
+    ],
+    "isActive": true
+  },
+  {
+    "name": "Glass",
+    "description": "The Glass is a versatile and elegant drinking vessel suitable for a variety of beverages. Its clear design allows you to enjoy the colors and textures of your drinks.",
+    "price": 4.99,
+    "category": "kitchen-accessories",
+    "stock": 46,
+    "images": [
+      "https://cdn.dummyjson.com/product-images/kitchen-accessories/glass/1.webp"
+    ],
+    "isActive": true
+  },
+  {
+    "name": "Grater Black",
+    "description": "The Grater in Black is a handy kitchen tool for grating cheese, vegetables, and more. Its sleek design and sharp blades make food preparation efficient and easy.",
+    "price": 10.99,
+    "category": "kitchen-accessories",
+    "stock": 84,
+    "images": [
+      "https://cdn.dummyjson.com/product-images/kitchen-accessories/grater-black/1.webp"
+    ],
+    "isActive": true
+  },
+  {
+    "name": "Hand Blender",
+    "description": "The Hand Blender is a versatile kitchen appliance for blending, pureeing, and mixing. Its compact design and powerful motor make it a convenient tool for various recipes.",
+    "price": 34.99,
+    "category": "kitchen-accessories",
+    "stock": 84,
+    "images": [
+      "https://cdn.dummyjson.com/product-images/kitchen-accessories/hand-blender/1.webp"
+    ],
+    "isActive": true
+  },
+  {
+    "name": "Ice Cube Tray",
+    "description": "The Ice Cube Tray is a practical accessory for making ice cubes in various shapes. Perfect for keeping your drinks cool and adding a fun element to your beverages.",
+    "price": 5.99,
+    "category": "kitchen-accessories",
+    "stock": 13,
+    "images": [
+      "https://cdn.dummyjson.com/product-images/kitchen-accessories/ice-cube-tray/1.webp"
+    ],
+    "isActive": true
+  },
+  {
+    "name": "Kitchen Sieve",
+    "description": "The Kitchen Sieve is a versatile tool for sifting and straining dry and wet ingredients. Its fine mesh design ensures smooth results in your cooking and baking.",
+    "price": 7.99,
+    "category": "kitchen-accessories",
+    "stock": 68,
+    "images": [
+      "https://cdn.dummyjson.com/product-images/kitchen-accessories/kitchen-sieve/1.webp"
+    ],
+    "isActive": true
+  },
+  {
+    "name": "Knife",
+    "description": "The Knife is an essential kitchen tool for chopping, slicing, and dicing. Its sharp blade and ergonomic handle make it a reliable choice for food preparation.",
+    "price": 14.99,
+    "category": "kitchen-accessories",
+    "stock": 7,
+    "images": [
+      "https://cdn.dummyjson.com/product-images/kitchen-accessories/knife/1.webp"
+    ],
+    "isActive": true
+  },
+  {
+    "name": "Lunch Box",
+    "description": "The Lunch Box is a convenient and portable container for packing and carrying your meals. With compartments for different foods, it's perfect for on-the-go dining.",
+    "price": 12.99,
+    "category": "kitchen-accessories",
+    "stock": 94,
+    "images": [
+      "https://cdn.dummyjson.com/product-images/kitchen-accessories/lunch-box/1.webp"
+    ],
+    "isActive": true
+  },
+  {
+    "name": "Microwave Oven",
+    "description": "The Microwave Oven is a versatile kitchen appliance for quick and efficient cooking, reheating, and defrosting. Its compact size makes it suitable for various kitchen setups.",
+    "price": 89.99,
+    "category": "kitchen-accessories",
+    "stock": 59,
+    "images": [
+      "https://cdn.dummyjson.com/product-images/kitchen-accessories/microwave-oven/1.webp",
+      "https://cdn.dummyjson.com/product-images/kitchen-accessories/microwave-oven/2.webp",
+      "https://cdn.dummyjson.com/product-images/kitchen-accessories/microwave-oven/3.webp",
+      "https://cdn.dummyjson.com/product-images/kitchen-accessories/microwave-oven/4.webp"
+    ],
+    "isActive": true
+  },
+  {
+    "name": "Mug Tree Stand",
+    "description": "The Mug Tree Stand is a stylish and space-saving solution for organizing your mugs. Keep your favorite mugs easily accessible and neatly displayed in your kitchen.",
+    "price": 15.99,
+    "category": "kitchen-accessories",
+    "stock": 88,
+    "images": [
+      "https://cdn.dummyjson.com/product-images/kitchen-accessories/mug-tree-stand/1.webp",
+      "https://cdn.dummyjson.com/product-images/kitchen-accessories/mug-tree-stand/2.webp"
+    ],
+    "isActive": true
+  },
+  {
+    "name": "Pan",
+    "description": "The Pan is a versatile and essential cookware item for frying, saut\u00e9ing, and cooking various dishes. Its non-stick coating ensures easy food release and cleanup.",
+    "price": 24.99,
+    "category": "kitchen-accessories",
+    "stock": 90,
+    "images": [
+      "https://cdn.dummyjson.com/product-images/kitchen-accessories/pan/1.webp"
+    ],
+    "isActive": true
+  },
+  {
+    "name": "Plate",
+    "description": "The Plate is a classic and essential dishware item for serving meals. Its durable and stylish design makes it suitable for everyday use or special occasions.",
+    "price": 3.99,
+    "category": "kitchen-accessories",
+    "stock": 66,
+    "images": [
+      "https://cdn.dummyjson.com/product-images/kitchen-accessories/plate/1.webp"
+    ],
+    "isActive": true
+  },
+  {
+    "name": "Red Tongs",
+    "description": "The Red Tongs are versatile kitchen tongs suitable for various cooking and serving tasks. Their vibrant color adds a pop of excitement to your kitchen utensils.",
+    "price": 6.99,
+    "category": "kitchen-accessories",
+    "stock": 82,
+    "images": [
+      "https://cdn.dummyjson.com/product-images/kitchen-accessories/red-tongs/1.webp"
+    ],
+    "isActive": true
+  },
+  {
+    "name": "Silver Pot With Glass Cap",
+    "description": "The Silver Pot with Glass Cap is a stylish and functional cookware item for boiling, simmering, and preparing delicious meals. Its glass cap allows you to monitor cooking progress.",
+    "price": 39.99,
+    "category": "kitchen-accessories",
+    "stock": 40,
+    "images": [
+      "https://cdn.dummyjson.com/product-images/kitchen-accessories/silver-pot-with-glass-cap/1.webp"
+    ],
+    "isActive": true
+  },
+  {
+    "name": "Slotted Turner",
+    "description": "The Slotted Turner is a kitchen utensil designed for flipping and turning food items. Its slotted design allows excess liquid to drain, making it ideal for frying and saut\u00e9ing.",
+    "price": 8.99,
+    "category": "kitchen-accessories",
+    "stock": 88,
+    "images": [
+      "https://cdn.dummyjson.com/product-images/kitchen-accessories/slotted-turner/1.webp"
+    ],
+    "isActive": true
+  },
+  {
+    "name": "Spice Rack",
+    "description": "The Spice Rack is a convenient organizer for your spices and seasonings. Keep your kitchen essentials within reach and neatly arranged with this stylish spice rack.",
+    "price": 19.99,
+    "category": "kitchen-accessories",
+    "stock": 79,
+    "images": [
+      "https://cdn.dummyjson.com/product-images/kitchen-accessories/spice-rack/1.webp"
+    ],
+    "isActive": true
+  },
+  {
+    "name": "Spoon",
+    "description": "The Spoon is a versatile kitchen utensil for stirring, serving, and tasting. Its ergonomic design and durable construction make it an essential tool for every kitchen.",
+    "price": 4.99,
+    "category": "kitchen-accessories",
+    "stock": 59,
+    "images": [
+      "https://cdn.dummyjson.com/product-images/kitchen-accessories/spoon/1.webp"
+    ],
+    "isActive": true
+  },
+  {
+    "name": "Tray",
+    "description": "The Tray is a functional and decorative item for serving snacks, appetizers, or drinks. Its stylish design makes it a versatile accessory for entertaining guests.",
+    "price": 16.99,
+    "category": "kitchen-accessories",
+    "stock": 71,
+    "images": [
+      "https://cdn.dummyjson.com/product-images/kitchen-accessories/tray/1.webp"
+    ],
+    "isActive": true
+  },
+  {
+    "name": "Wooden Rolling Pin",
+    "description": "The Wooden Rolling Pin is a classic kitchen tool for rolling out dough for baking. Its smooth surface and sturdy handles make it easy to achieve uniform thickness.",
+    "price": 11.99,
+    "category": "kitchen-accessories",
+    "stock": 80,
+    "images": [
+      "https://cdn.dummyjson.com/product-images/kitchen-accessories/wooden-rolling-pin/1.webp"
+    ],
+    "isActive": true
+  },
+  {
+    "name": "Yellow Peeler",
+    "description": "The Yellow Peeler is a handy tool for peeling fruits and vegetables with ease. Its bright yellow color adds a cheerful touch to your kitchen gadgets.",
+    "price": 5.99,
+    "category": "kitchen-accessories",
+    "stock": 35,
+    "images": [
+      "https://cdn.dummyjson.com/product-images/kitchen-accessories/yellow-peeler/1.webp"
+    ],
+    "isActive": true
+  },
+   {
+    "name": "pikachu",
+    "description": "",
+    "price": 60,
+    "category": "pokemons",
+    "stock": 9,
+    "images": [
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/25.svg",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/25.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/25.png"
+    ],
+    "isActive": true
+  },
+  {
+    "name": "charizard",
+    "description": "",
+    "price": 905,
+    "category": "pokemons",
+    "stock": 34,
+    "images": [
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/6.svg",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/6.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/6.png"
+    ],
+    "isActive": true
+  },
+  {
+    "name": "bulbasaur",
+    "description": "",
+    "price": 69,
+    "category": "pokemons",
+    "stock": 11,
+    "images": [
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/1.svg",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/1.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png"
+    ],
+    "isActive": true
+  },
+  {
+    "name": "squirtle",
+    "description": "",
+    "price": 90,
+    "category": "pokemons",
+    "stock": 24,
+    "images": [
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/7.svg",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/7.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/7.png"
+    ],
+    "isActive": true
+  },
+  {
+    "name": "mewtwo",
+    "description": "",
+    "price": 1220,
+    "category": "pokemons",
+    "stock": 60,
+    "images": [
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/150.svg",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/150.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/150.png"
+    ],
+    "isActive": true
+  },
+  {
+    "name": "eevee",
+    "description": "",
+    "price": 65,
+    "category": "pokemons",
+    "stock": 18,
+    "images": [
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/133.svg",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/133.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/133.png"
+    ],
+    "isActive": true
+  },
+  {
+    "name": "jigglypuff",
+    "description": "",
+    "price": 55,
+    "category": "pokemons",
+    "stock": 2,
+    "images": [
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/39.svg",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/39.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/39.png"
+    ],
+    "isActive": true
+  },
+  {
+    "name": "meowth",
+    "description": "",
+    "price": 42,
+    "category": "pokemons",
+    "stock": 36,
+    "images": [
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/52.svg",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/52.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/52.png"
+    ],
+    "isActive": true
+  },
+  {
+    "name": "snorlax",
+    "description": "",
+    "price": 4600,
+    "category": "pokemons",
+    "stock": 13,
+    "images": [
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/143.svg",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/143.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/143.png"
+    ],
+    "isActive": true
+  },
+  {
+    "name": "gengar",
+    "description": "",
+    "price": 405,
+    "category": "pokemons",
+    "stock": 75,
+    "images": [
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/94.svg",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/94.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/94.png"
+    ],
+    "isActive": true
+  },
+  {
+    "name": "lucario",
+    "description": "",
+    "price": 540,
+    "category": "pokemons",
+    "stock": 82,
+    "images": [
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/448.svg",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/448.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/448.png"
+    ],
+    "isActive": true
+  },
+  {
+    "name": "greninja",
+    "description": "",
+    "price": 400,
+    "category": "pokemons",
+    "stock": 71,
+    "images": [
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/658.svg",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/658.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/658.png"
+    ],
+    "isActive": true
+  },
+  {
+    "name": "rayquaza",
+    "description": "",
+    "price": 2065,
+    "category": "pokemons",
+    "stock": 34,
+    "images": [
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/384.svg",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/384.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/384.png"
+    ],
+    "isActive": true
+  },
+  {
+    "name": "arceus",
+    "description": "",
+    "price": 3200,
+    "category": "pokemons",
+    "stock": 17,
+    "images": [
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/493.svg",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/493.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/493.png"
+    ],
+    "isActive": true
+  },
+  {
+    "name": "lapras",
+    "description": "",
+    "price": 2200,
+    "category": "pokemons",
+    "stock": 75,
+    "images": [
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/131.svg",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/131.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/131.png"
+    ],
+    "isActive": true
+  },
+  {
+    "name": "dragonite",
+    "description": "",
+    "price": 2100,
+    "category": "pokemons",
+    "stock": 59,
+    "images": [
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/149.svg",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/149.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/149.png"
+    ],
+    "isActive": true
+  },
+  {
+    "name": "psyduck",
+    "description": "",
+    "price": 196,
+    "category": "pokemons",
+    "stock": 61,
+    "images": [
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/54.svg",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/54.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/54.png"
+    ],
+    "isActive": true
+  },
+  {
+    "name": "alakazam",
+    "description": "",
+    "price": 480,
+    "category": "pokemons",
+    "stock": 87,
+    "images": [
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/65.svg",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/65.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/65.png"
+    ],
+    "isActive": true
+  },
+  {
+    "name": "machamp",
+    "description": "",
+    "price": 1300,
+    "category": "pokemons",
+    "stock": 69,
+    "images": [
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/68.svg",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/68.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/68.png"
+    ],
+    "isActive": true
+  },
+  {
+    "name": "gyarados",
+    "description": "",
+    "price": 2350,
+    "category": "pokemons",
+    "stock": 98,
+    "images": [
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/130.svg",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/130.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/130.png"
+    ],
+    "isActive": true
+  }
+]

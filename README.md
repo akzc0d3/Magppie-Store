@@ -60,6 +60,11 @@ npm run dev
 
 ---
 
+### 🧑‍💻 Seed Database
+- Populate your database using the files located in the `/data` directory.
+
+---
+
 ## ⚙ Environment Variables
 
 ```env
