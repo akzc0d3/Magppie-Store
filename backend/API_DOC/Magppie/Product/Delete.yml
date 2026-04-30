@@ -5,13 +5,13 @@ info:
 
 http:
   method: DELETE
-  url: http://localhost:8000/v1/product/remove
+  url: "{{HOST}}/v1/product/remove"
   body:
     type: json
     data: |-
       [
-        "69ef0d2746a03d5ef1ab5270"
-        
+        "productID-1",
+        "productID-2"
       ]
   auth: inherit
 

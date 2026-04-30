@@ -5,16 +5,16 @@ info:
 
 http:
   method: POST
-  url: http://localhost:8000/v1/auth/signup
+  url: "{{HOST}}/v1/auth/signup"
   body:
     type: form-urlencoded
     data:
       - name: email
-        value: bom@deo.com
+        value: ""
       - name: password
-        value: 12Thuusudsd@ssdd
+        value: ""
       - name: role
-        value: user
+        value: ""
   auth: inherit
 
 settings:

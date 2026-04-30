@@ -1,11 +1,15 @@
 info:
-  name: View order
+  name: View my order
   type: http
   seq: 4
 
 http:
   method: GET
-  url: http://localhost:8000/v1/order/69f11ba52292d058190abfa5
+  url: "{{HOST}}/v1/order/:orderId"
+  params:
+    - name: orderId
+      value: ""
+      type: path
   auth: inherit
 
 settings:

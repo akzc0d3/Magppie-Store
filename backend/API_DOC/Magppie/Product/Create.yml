@@ -5,23 +5,20 @@ info:
 
 http:
   method: POST
-  url: http://localhost:8000/v1/product/create
+  url: "{{HOST}}/v1/product/create"
   body:
     type: json
     data: |-
       [
-      {
-          "name": "Test",
-          "description": "Test The Bamboo Spatula is a versatile kitchen tool made from eco-friendly bamboo. Ideal for flipping, stirring, and serving various dishes.",
-          "price": 7.99,
-          "category": "kitchen-accessories",
-          "stock": 37,
-          "images": [
-            "https://cdn.dummyjson.com/product-images/kitchen-accessories/bamboo-spatula/1.webp"
-          ],
+        {
+          "name": "",
+          "description": "",
+          "price": 1000.00,
+          "category": "",
+          "stock": 10,
+          "images": ["www.example.com/image1","www.example.com/image2"],
           "isActive": true
         }
-
       ]
   auth: inherit
 

@@ -1,11 +1,11 @@
 info:
-  name: Update Status
+  name: View my orders
   type: http
-  seq: 3
+  seq: 2
 
 http:
-  method: PATCH
-  url: http://localhost:8000/v1/order/status/69f11ba52292d058190abfa5/pending
+  method: GET
+  url: "{{HOST}}/v1/order/"
   auth: inherit
 
 settings:

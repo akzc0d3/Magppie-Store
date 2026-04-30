@@ -5,13 +5,14 @@ info:
 
 http:
   method: GET
-  url: http://localhost:8000/v1/product/search?category=pokemons
+  url: "{{HOST}}/v1/product/search"
   params:
     - name: category
-      value: pokemons
+      value: ""
       type: query
+      disabled: true
     - name: name
-      value: test
+      value: ""
       type: query
       disabled: true
     - name: priceMin

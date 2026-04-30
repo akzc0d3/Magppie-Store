@@ -5,15 +5,23 @@ info:
 
 http:
   method: POST
-  url: http://localhost:8000/v1/auth/login
+  url: "{{HOST}}/v1/auth/login"
   body:
     type: form-urlencoded
     data:
       - name: email
-        value: john@deo.com
+        value: ""
       - name: password
-        value: 12Thuusudsd@ssdd
+        value: ""
   auth: inherit
+
+runtime:
+  scripts:
+    - type: after-response
+      code: |-
+        if (res.getStatus() === 200) {
+          bru.setVar("ACCESS_TOKEN", res.body.data.accessToken);
+        }
 
 settings:
   encodeUrl: true

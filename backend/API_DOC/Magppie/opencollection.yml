@@ -17,7 +17,12 @@ config:
 request:
   auth:
     type: bearer
-    token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5ZjFhMTAzMThiNTI0YTkyM2I1Zjc2ZCIsImVtYWlsIjoiYWRtaW5AYWRtaW4uY29tIiwicm9sZSI6ImFkbWluIiwiaWF0IjoxNzc3NDUyMjQ0LCJleHAiOjE3Nzc0NTI4NDR9.zm_E62q0XwfMYRfc6NUtsB_0wq8YJPtL6hQsphwVGlQ
+    token: "{{ACCESS_TOKEN}}"
+  variables:
+    - name: HOST
+      value: http://localhost:8000
+    - name: ACCESS_TOKEN
+      value: ""
 bundled: false
 extensions:
   bruno:

@@ -1,0 +1,22 @@
+info:
+  name: Update Status
+  type: http
+  seq: 2
+
+http:
+  method: PATCH
+  url: "{{HOST}}/v1/admin/orders/:orderId/:status"
+  params:
+    - name: status
+      value: ""
+      type: path
+    - name: orderId
+      value: ""
+      type: path
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5

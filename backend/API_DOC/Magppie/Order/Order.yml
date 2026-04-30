@@ -5,20 +5,18 @@ info:
 
 http:
   method: POST
-  url: http://localhost:8000/v1/order/
+  url: "{{HOST}}/v1/order/"
   body:
     type: json
     data: |-
       [
         {
-          "id":"69ef36cf4b374f2773bdea07",
-          "quantity":9
+          "id":"",
+          "quantity":1
         },
-        
-          
         {
-          "id":"69ef36cf4b374f2773bdea08",
-          "quantity":3
+          "id":"",
+          "quantity":10
         }
       ]
   auth: inherit

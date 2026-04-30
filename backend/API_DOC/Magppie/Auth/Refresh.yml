@@ -5,10 +5,18 @@ info:
 
 http:
   method: POST
-  url: http://localhost:8000/v1/auth/refresh
+  url: "{{HOST}}/v1/auth/refresh"
   headers:
     - name: ""
-      value: 7b02f43f9682b19f383d3f8fb6d1648c8d6645fd1a57386ba6931b9083eca431
+      value: ""
+
+runtime:
+  scripts:
+    - type: after-response
+      code: |-
+        if (res.getStatus() === 200) {
+          bru.setVar("ACCESS_TOKEN", res.body.data.accessToken);
+        }
 
 settings:
   encodeUrl: true
