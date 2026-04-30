@@ -87,9 +87,9 @@ export default function ProfilePage() {
                   </div>
 
                   <div className="text-sm">
-                    <span className="px-2 py-1 rounded bg-gray-100">
-                      {order.status}
-                    </span>
+                       <span className="px-3 ml-10 py-1 rounded-full bg-black text-white text-xs font-medium capitalize">
+                    {order.status}
+                </span>
                   </div>
                 </div>
 

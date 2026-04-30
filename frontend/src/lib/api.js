@@ -1,9 +1,9 @@
 import { useAuthStore } from "@/store/useAuthStore";
 
-const BASE_URL =  process.env.NEXT_PUBLIC_API_URL;
+const BASE_URL = process.env.NEXT_PUBLIC_API_URL;
 
 export async function apiRequest(endpoint, options = {}) {
-    const { accessToken, logout, restoreSession } = useAuthStore.getState();
+    const { accessToken, logout, restoreSession, user } = useAuthStore.getState();
 
     const makeRequest = async (token) => {
         return fetch(`${BASE_URL}${endpoint}`, {
@@ -19,7 +19,7 @@ export async function apiRequest(endpoint, options = {}) {
 
     let res = await makeRequest(accessToken);
 
-    if (res.status === 401) {
+    if (res.status === 401 && user) {
         try {
             await restoreSession();
 
@@ -35,7 +35,8 @@ export async function apiRequest(endpoint, options = {}) {
     }
 
     if (!res.ok) {
-        throw new Error("API Error");
+        const { message, data } = await res.json();
+        throw Object.assign(new Error(message), { data });
     }
 
     return res.json();
